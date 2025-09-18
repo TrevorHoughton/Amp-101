@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <style>
         body {
             background: linear-gradient(135deg, #1e3c72, #2a5298, #0f4c75);
@@ -38,8 +39,11 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 60px;
+        }
+        .sport-box i {
+            font-size: 4rem;
             color: #333;
+            line-height: 1;
         }
         .sports-row {
             display: flex;
@@ -60,10 +64,10 @@
     <p>Welcome to the ultimate sports arena! 🏆</p>
     
     <div class="sports-row">
-        <div class="sport-box">⚽</div>
-        <div class="sport-box">🤝</div>
-        <div class="sport-box">🏓</div>
-        <div class="sport-box">✂️</div>
+        <div class="sport-box"><i class="fa-solid fa-futbol"></i></div>
+        <div class="sport-box"><i class="fa-solid fa-people-pulling"></i></div>
+        <div class="sport-box"><i class="fa-solid fa-table-tennis-paddle-ball"></i></div>
+        <div class="sport-box"><i class="fa-solid fa-hand-scissors"></i></div>
     </div>
     
     <p>Game on! Let's play some sports! 💪</p>
